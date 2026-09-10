@@ -4,6 +4,8 @@
 
 ## A course teaching everything you need to know to start building AI Agents
 
+**Lab platform delivery (简体中文):** The [complete 00–18 course package](./courses/README.md) provides lab-format reading manuals alongside the original samples. See the [delivery and acceptance notes](./courses/ai-agents-for-beginners-delivery.zh-CN.md) for resource requirements and pending platform validation.
+
 [![GitHub license](https://img.shields.io/github/license/microsoft/ai-agents-for-beginners.svg)](https://github.com/microsoft/ai-agents-for-beginners/blob/master/LICENSE?WT.mc_id=academic-105485-koreyst)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/ai-agents-for-beginners.svg)](https://GitHub.com/microsoft/ai-agents-for-beginners/graphs/contributors/?WT.mc_id=academic-105485-koreyst)
 [![GitHub issues](https://img.shields.io/github/issues/microsoft/ai-agents-for-beginners.svg)](https://GitHub.com/microsoft/ai-agents-for-beginners/issues/?WT.mc_id=academic-105485-koreyst)
