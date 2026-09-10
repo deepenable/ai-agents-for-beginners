@@ -1,0 +1,524 @@
+{
+  "supplierChecksPassed": true,
+  "officialValidation": "not-run",
+  "teachingRehearsal": "pending",
+  "scope": "Supplier zh-CN package checks; not a CommonMark or platform conformance guarantee.",
+  "courseId": "ai-agents-for-beginners",
+  "sourceCommit": "25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595",
+  "labs": 19,
+  "chapters": 39,
+  "images": 11,
+  "declaredFiles": 51,
+  "declaredBytes": 1972755,
+  "manifestBytes": 9128,
+  "maxMarkdownBytes": 22644,
+  "maxImageBytes": 224427,
+  "externalLinksInspectedOffline": 108,
+  "coverage": {
+    "00-course-setup": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 0,
+      "linkedNotebooks": 0,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "00-course-setup/AzureSearch.md",
+        "00-course-setup/README.md"
+      ]
+    },
+    "01-intro-to-ai-agents": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "01-intro-to-ai-agents/README.md",
+        "01-intro-to-ai-agents/code_samples/01-dotnet-agent-framework.cs",
+        "01-intro-to-ai-agents/code_samples/01-python-agent-framework.ipynb"
+      ]
+    },
+    "02-explore-agentic-frameworks": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 2,
+      "linkedNotebooks": 2,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "02-explore-agentic-frameworks/README.md",
+        "02-explore-agentic-frameworks/azure-ai-foundry-agent-creation.md",
+        "02-explore-agentic-frameworks/code_samples/02-dotnet-agent-framework.cs",
+        "02-explore-agentic-frameworks/code_samples/02-python-agent-framework-azure-openai.ipynb",
+        "02-explore-agentic-frameworks/code_samples/02-python-agent-framework.ipynb"
+      ]
+    },
+    "03-agentic-design-patterns": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "03-agentic-design-patterns/README.md",
+        "03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.cs",
+        "03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.md",
+        "03-agentic-design-patterns/code_samples/03-python-agent-framework.ipynb"
+      ]
+    },
+    "04-tool-use": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "04-tool-use/README.md",
+        "04-tool-use/code_samples/04-dotnet-agent-framework.cs",
+        "04-tool-use/code_samples/04-python-agent-framework.ipynb",
+        "04-tool-use/code_samples/test_demo_plugins.py",
+        "04-tool-use/images/functioncalling-diagram.png"
+      ]
+    },
+    "05-agentic-rag": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 2,
+      "linkedNotebooks": 2,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "05-agentic-rag/README.md",
+        "05-agentic-rag/code_samples/05-dotnet-agent-framework.cs",
+        "05-agentic-rag/code_samples/05-dotnet-agent-framework.ipynb",
+        "05-agentic-rag/code_samples/05-python-agent-framework.ipynb",
+        "05-agentic-rag/code_samples/document.md",
+        "05-agentic-rag/images/self-correction.png"
+      ]
+    },
+    "06-building-trustworthy-agents": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 2,
+      "linkedNotebooks": 2,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "06-building-trustworthy-agents/README.md",
+        "06-building-trustworthy-agents/code_samples/06-human-in-the-loop.ipynb",
+        "06-building-trustworthy-agents/code_samples/06-system-message-framework.ipynb"
+      ]
+    },
+    "07-planning-design": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "07-planning-design/README.md",
+        "07-planning-design/code_samples/07-dotnet-agent-framework.cs",
+        "07-planning-design/code_samples/07-dotnet-agent-framework.md",
+        "07-planning-design/code_samples/07-python-agent-framework.ipynb"
+      ]
+    },
+    "08-multi-agent": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 9,
+      "linkedNotebooks": 9,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "08-multi-agent/README.md",
+        "08-multi-agent/code_samples/08-dotnet-agent-framework.cs",
+        "08-multi-agent/code_samples/08-python-agent-framework.ipynb",
+        "08-multi-agent/code_samples/workflows-agent-framework/README.md",
+        "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.cs",
+        "08-multi-agent/code_samples/workflows-agent-framework/dotNET/01.dotnet-agent-framework-workflow-ghmodel-basic.ipynb",
+        "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.cs",
+        "08-multi-agent/code_samples/workflows-agent-framework/dotNET/02.dotnet-agent-framework-workflow-ghmodel-sequential.ipynb",
+        "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.cs",
+        "08-multi-agent/code_samples/workflows-agent-framework/dotNET/03.dotnet-agent-framework-workflow-ghmodel-concurrent.ipynb",
+        "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.cs",
+        "08-multi-agent/code_samples/workflows-agent-framework/dotNET/04.dotnet-agent-framework-workflow-aifoundry-condition.ipynb",
+        "08-multi-agent/code_samples/workflows-agent-framework/python/01.python-agent-framework-workflow-ghmodel-basic.ipynb",
+        "08-multi-agent/code_samples/workflows-agent-framework/python/02.python-agent-framework-workflow-ghmodel-sequential.ipynb",
+        "08-multi-agent/code_samples/workflows-agent-framework/python/03.python-agent-framework-workflow-ghmodel-concurrent.ipynb",
+        "08-multi-agent/code_samples/workflows-agent-framework/python/04.python-agent-framework-workflow-aifoundry-condition.ipynb",
+        "08-multi-agent/solution/solution-quiz.md",
+        "08-multi-agent/solution/solution.md"
+      ]
+    },
+    "09-metacognition": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "09-metacognition/README.md",
+        "09-metacognition/code_samples/09-python-agent-framework.ipynb"
+      ]
+    },
+    "10-ai-agents-production": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 2,
+      "linkedNotebooks": 2,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "10-ai-agents-production/README.md",
+        "10-ai-agents-production/code_samples/10-expense_claim-demo.ipynb",
+        "10-ai-agents-production/code_samples/10-python-agent-framework.ipynb"
+      ]
+    },
+    "11-agentic-protocols": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 2,
+      "linkedNotebooks": 2,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "11-agentic-protocols/README.md",
+        "11-agentic-protocols/code_samples/11-a2a-agent-framework.ipynb",
+        "11-agentic-protocols/code_samples/11-mcp-agent-framework.ipynb",
+        "11-agentic-protocols/code_samples/github-mcp/README.md",
+        "11-agentic-protocols/code_samples/github-mcp/app.py",
+        "11-agentic-protocols/code_samples/mcp-agents/README.md",
+        "11-agentic-protocols/code_samples/mcp-agents/client/client.py",
+        "11-agentic-protocols/code_samples/mcp-agents/client/resumable_client.py",
+        "11-agentic-protocols/code_samples/mcp-agents/server/event_store.py",
+        "11-agentic-protocols/code_samples/mcp-agents/server/server.py"
+      ]
+    },
+    "12-context-engineering": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "12-context-engineering/README.md",
+        "12-context-engineering/code_samples/12-chat_summarization.ipynb",
+        "12-context-engineering/code_samples/vacation_agent_scratchpad.md"
+      ]
+    },
+    "13-agent-memory": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 2,
+      "linkedNotebooks": 2,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "13-agent-memory/13-agent-memory-cognee.ipynb",
+        "13-agent-memory/13-agent-memory.ipynb",
+        "13-agent-memory/README.md"
+      ]
+    },
+    "14-microsoft-agent-framework": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 6,
+      "linkedNotebooks": 6,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "14-microsoft-agent-framework/README.md",
+        "14-microsoft-agent-framework/code-samples/14-concurrent.ipynb",
+        "14-microsoft-agent-framework/code-samples/14-conditional-workflow.ipynb",
+        "14-microsoft-agent-framework/code-samples/14-handoff.ipynb",
+        "14-microsoft-agent-framework/code-samples/14-human-loop.ipynb",
+        "14-microsoft-agent-framework/code-samples/14-langchain-hosted-agent.py",
+        "14-microsoft-agent-framework/code-samples/14-middleware.ipynb",
+        "14-microsoft-agent-framework/code-samples/14-sequential.ipynb",
+        "14-microsoft-agent-framework/code-samples/hotel_booking_workflow_sample.py"
+      ]
+    },
+    "15-browser-use": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "15-browser-use/15-browser-user.ipynb",
+        "15-browser-use/README.md"
+      ]
+    },
+    "16-deploying-scalable-agents": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "16-deploying-scalable-agents/README.md",
+        "16-deploying-scalable-agents/code_samples/16-python-agent-framework.ipynb"
+      ]
+    },
+    "17-creating-local-ai-agents": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 1,
+      "linkedNotebooks": 1,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "17-creating-local-ai-agents/README.md",
+        "17-creating-local-ai-agents/code_samples/17-local-agent-foundry-local.ipynb"
+      ]
+    },
+    "18-securing-ai-agents": {
+      "sourceReadmeLinked": true,
+      "sourceNotebooks": 2,
+      "linkedNotebooks": 2,
+      "unlinkedNotebooks": [],
+      "linkedFiles": [
+        "18-securing-ai-agents/README.md",
+        "18-securing-ai-agents/code_samples/18-signed-receipts.ipynb",
+        "18-securing-ai-agents/code_samples/human-authorization-receipts.ipynb",
+        "18-securing-ai-agents/code_samples/requirements.txt",
+        "18-securing-ai-agents/code_samples/sample_receipts/01_valid_receipt.json",
+        "18-securing-ai-agents/code_samples/sample_receipts/02_tampered_receipt.json",
+        "18-securing-ai-agents/code_samples/sample_receipts/03_chain_three_receipts.json",
+        "18-securing-ai-agents/code_samples/sample_receipts/README.md",
+        "18-securing-ai-agents/code_samples/sample_receipts/generate_fixtures.py"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "course.json",
+      "bytes": 9128,
+      "sha256": "9c5ac904f1c1cb86e1aa865fb06e6faffc1a2b0f51f95b5c6aad4cdbf3f46ba1"
+    },
+    {
+      "path": "chapters/00-overview.zh-CN.md",
+      "bytes": 5196,
+      "sha256": "64cf8ecde90a030607ace988106f36b3e7ceafc7d9b3e82dd3194c0a2028e8b1"
+    },
+    {
+      "path": "chapters/00-setup.zh-CN.md",
+      "bytes": 13490,
+      "sha256": "665f2946c537fe5f5b4f72f6b54696511d019493ee333a6f648e64a56bfd9d1b"
+    },
+    {
+      "path": "chapters/00-license.zh-CN.md",
+      "bytes": 4140,
+      "sha256": "c65c13b8deededb69998344c42f16d8a063f39cb2c8fd21681fcae632fb5e4ee"
+    },
+    {
+      "path": "chapters/01-concepts.zh-CN.md",
+      "bytes": 11072,
+      "sha256": "1abf3fc96335aa9ae45fb1437e5bff5047e7ed1e21ea1a6de1aa86e2b1b16280"
+    },
+    {
+      "path": "chapters/01-practice.zh-CN.md",
+      "bytes": 10744,
+      "sha256": "3376048c27ec822f5c2e9fd262da8d80914709d25cc1db45768b690514bb5671"
+    },
+    {
+      "path": "chapters/02-concepts.zh-CN.md",
+      "bytes": 11419,
+      "sha256": "2a634a6d76a6719ede88897f9604960a10c74ddcb33522986369827e9df08658"
+    },
+    {
+      "path": "chapters/02-practice.zh-CN.md",
+      "bytes": 11263,
+      "sha256": "b6a6bf227f0fe97d76cac061d49c4dcf800057f8c83e26507e00de08179e02fa"
+    },
+    {
+      "path": "chapters/03-concepts.zh-CN.md",
+      "bytes": 11409,
+      "sha256": "4ba98c25dbd2ee25bfabd534ee952625c9bb6d7de5d4d20b2e4fd5d04e17e5b6"
+    },
+    {
+      "path": "chapters/03-practice.zh-CN.md",
+      "bytes": 11053,
+      "sha256": "dca8d537925bea47037fa8fbc6feba1bd6a1caeef4c0bd08858e50e0eeae7531"
+    },
+    {
+      "path": "chapters/04-concepts.zh-CN.md",
+      "bytes": 11165,
+      "sha256": "016c822661feaed003a3f53187b13ac3b54e79ee0079d81157513f90770ba14c"
+    },
+    {
+      "path": "chapters/04-practice.zh-CN.md",
+      "bytes": 11772,
+      "sha256": "5b1471f434265b9969b057f33386bb812cf3ee60da40eff892fc38fcefeac6fa"
+    },
+    {
+      "path": "chapters/05-concepts.zh-CN.md",
+      "bytes": 11029,
+      "sha256": "e0bfe3f74055022957aad94ec26c32084a4547fe696fcce5b151d62d7e4e5497"
+    },
+    {
+      "path": "chapters/05-practice.zh-CN.md",
+      "bytes": 15848,
+      "sha256": "2d74bf81c0ad612a0d8f784106a18821e3f7b38371235e09a78eec8226200733"
+    },
+    {
+      "path": "chapters/06-concepts.zh-CN.md",
+      "bytes": 9931,
+      "sha256": "a047930d047da9cc1bf08b588e3df2fa6bf213803661d757eea67613b5f59fe3"
+    },
+    {
+      "path": "chapters/06-practice.zh-CN.md",
+      "bytes": 11394,
+      "sha256": "1eb7a42238f8e66e2da5335aeff5a01d47aa6c2ce4822db35aa0da6e3f29b965"
+    },
+    {
+      "path": "chapters/07-concepts.zh-CN.md",
+      "bytes": 8701,
+      "sha256": "3a94a7bd5625363c6da0c1e0d25975771339fd66c3bfa6bae7b68570344d409f"
+    },
+    {
+      "path": "chapters/07-practice.zh-CN.md",
+      "bytes": 11069,
+      "sha256": "4d332b64fb0daf2ce101f9aec04be9f38ff77a6d187091d26e87c779592ca3f2"
+    },
+    {
+      "path": "chapters/08-concepts.zh-CN.md",
+      "bytes": 10958,
+      "sha256": "18180d6b8ea849a9f1667f284e81b53c48813b62e8da93e61d3333b136cc70c3"
+    },
+    {
+      "path": "chapters/08-practice.zh-CN.md",
+      "bytes": 19450,
+      "sha256": "d692a0682893f13a5817632a4d55af0a2da45dd684fd984e4e40517109c958f4"
+    },
+    {
+      "path": "chapters/09-concepts.zh-CN.md",
+      "bytes": 11546,
+      "sha256": "84440c3ec02c9d46eeb58da961a46d7677bfeb224c99545476df4f67196995e6"
+    },
+    {
+      "path": "chapters/09-practice.zh-CN.md",
+      "bytes": 10082,
+      "sha256": "e8497dd98f1938d6e7c34d4e2609dad499e3eca82d2370b0027df75112272050"
+    },
+    {
+      "path": "chapters/10-concepts.zh-CN.md",
+      "bytes": 10506,
+      "sha256": "9010247250259042226356862b92e84df3fb043379177db7e9a3c7e1a395775a"
+    },
+    {
+      "path": "chapters/10-practice.zh-CN.md",
+      "bytes": 13755,
+      "sha256": "79c630a445d6a8f28050f4f508e27efad937b4fa70f73b2a70750e13ebbc4a52"
+    },
+    {
+      "path": "chapters/11-concepts.zh-CN.md",
+      "bytes": 12402,
+      "sha256": "bf6dbdd3976e9a684ef5b2038fcf63faad83d57272fb720eef85fd28093e04c2"
+    },
+    {
+      "path": "chapters/11-practice.zh-CN.md",
+      "bytes": 15198,
+      "sha256": "62bbf8b037fbca8f81949789be9629ea45e3ef3f2f39b84e7b827584099164d2"
+    },
+    {
+      "path": "chapters/12-concepts.zh-CN.md",
+      "bytes": 13076,
+      "sha256": "f308b621d9ec93ea205e7c1f44a124000eab7e71dac17a367cddc2e3904822b2"
+    },
+    {
+      "path": "chapters/12-practice.zh-CN.md",
+      "bytes": 13112,
+      "sha256": "61785555b28f5def7702cebdf8c7f5b07534ef268ba2eb934a4b429f7ede089d"
+    },
+    {
+      "path": "chapters/13-concepts.zh-CN.md",
+      "bytes": 11799,
+      "sha256": "b29e9ad858ac9f25292d391b819bace7f786abfd28a1b5991eda9aa597268d75"
+    },
+    {
+      "path": "chapters/13-practice.zh-CN.md",
+      "bytes": 16427,
+      "sha256": "777d8d88a3a874aabf18ac32893ceac728a6245463e16bb7329c720f7a50c141"
+    },
+    {
+      "path": "chapters/14-concepts.zh-CN.md",
+      "bytes": 14499,
+      "sha256": "9c7e60f2af0022b48b13cc3a1649a0a4a5a56532d4575b5ca160e9d13709add2"
+    },
+    {
+      "path": "chapters/14-practice.zh-CN.md",
+      "bytes": 22644,
+      "sha256": "186ac18b40798d2bd09154843dce6b97491973314405f83ad837f6d6b9467217"
+    },
+    {
+      "path": "chapters/15-concepts.zh-CN.md",
+      "bytes": 8644,
+      "sha256": "0161832b1ad4db08a48e3bc3a592337647c86215e6514c90b0dd8a3ce7500f0f"
+    },
+    {
+      "path": "chapters/15-practice.zh-CN.md",
+      "bytes": 14991,
+      "sha256": "9fd75e1fad2becb85917f0594eea3ba4f30f05261c8789bfeb2a56739fe95cfc"
+    },
+    {
+      "path": "chapters/16-concepts.zh-CN.md",
+      "bytes": 9872,
+      "sha256": "0a23eec1767c6e32297b6d1f64b4edaa34af699a5dcc89914a2c7db772f91f1b"
+    },
+    {
+      "path": "chapters/16-practice.zh-CN.md",
+      "bytes": 16864,
+      "sha256": "c1067a924a3acac81f12b65cbf63b4c052303feca90e3dffb422a3f7d65cf572"
+    },
+    {
+      "path": "chapters/17-concepts.zh-CN.md",
+      "bytes": 9113,
+      "sha256": "30a99b601e35edf7b5322478c7ebb527eb10bfd983f766596cb63a7a0e85ebc4"
+    },
+    {
+      "path": "chapters/17-practice.zh-CN.md",
+      "bytes": 17007,
+      "sha256": "0c1149a00edf27308e762135661bee8b98a601f9b7e5103777ff9ad8955ac7e2"
+    },
+    {
+      "path": "chapters/18-concepts.zh-CN.md",
+      "bytes": 10559,
+      "sha256": "69b5e2be83d47ff2c56b11ac5b336cb862ed696681fdf4e69ae844c71de90fbd"
+    },
+    {
+      "path": "chapters/18-practice.zh-CN.md",
+      "bytes": 17552,
+      "sha256": "e649604169481f8cf87d48d2192a79665d05675dc7320a99746bb280519cc43b"
+    },
+    {
+      "path": "assets/01-agent-components.webp",
+      "bytes": 50564,
+      "sha256": "11998f52963990b4b8b503559790ef1c931632160f8f1e787043409fde4f66fa"
+    },
+    {
+      "path": "assets/04-function-calling.png",
+      "bytes": 46274,
+      "sha256": "4908b8b213be8ab1482d4c472121cc0042a424f92d6adbc0939cdeadfe7ef4a3"
+    },
+    {
+      "path": "assets/05-self-correction.png",
+      "bytes": 141099,
+      "sha256": "916e9ef86450093941a3ee975bbdf474aa476805a9fc404516e6f6252b659823"
+    },
+    {
+      "path": "assets/06-system-message-framework.png",
+      "bytes": 156891,
+      "sha256": "4f20c0d41db45b1150e6c4fff2275df7da9b964b7d194cea3b21b4967e6576ae"
+    },
+    {
+      "path": "assets/07-goals-and-tasks.png",
+      "bytes": 101805,
+      "sha256": "9c36583a995369c58e8f52c8fded9eb76c4a57f992710160b20dc8d03171dd5a"
+    },
+    {
+      "path": "assets/08-agent-handoff.png",
+      "bytes": 121765,
+      "sha256": "e88f77d793915e1195cb1a63af298aac56fe9bd8bda6f326b735211bddb0e039"
+    },
+    {
+      "path": "assets/09-rag-and-context.png",
+      "bytes": 182714,
+      "sha256": "da8819cd771881718959e017fe84bd4e766080b4402a833ccbe8aaf0e376c30c"
+    },
+    {
+      "path": "assets/11-a2a-travel.png",
+      "bytes": 224427,
+      "sha256": "e2bedf9b061bc7580e89feb49eece22f67bdf67d549f68b05c649df215b00098"
+    },
+    {
+      "path": "assets/11-mcp-travel.png",
+      "bytes": 182676,
+      "sha256": "271bf2fbb56a85d72bc949d59f33c512aac9497c519f74c7c7f3f7102d464449"
+    },
+    {
+      "path": "assets/12-context-types.png",
+      "bytes": 152164,
+      "sha256": "467f3ed5d5af4caa0c056ccc9412d9f4f00728d4735e5ec7a8b24cab7c29a7b6"
+    },
+    {
+      "path": "assets/14-agent-components.png",
+      "bytes": 122497,
+      "sha256": "fdea98f17fd651bef30c6194533439ec0937db736ca6e117f0da2bcec1794688"
+    }
+  ],
+  "errors": []
+}

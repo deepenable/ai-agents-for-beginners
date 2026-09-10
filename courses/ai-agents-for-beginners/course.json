@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "courseId": "ai-agents-for-beginners",
+  "title": { "zh-CN": "AI 智能体入门：从设计到交付" },
+  "summary": { "zh-CN": "完整覆盖原课程 00 环境准备及 01–18 正式模块，通过真实 Python 示例学习智能体、工具、RAG、规划、多智能体、协议、上下文、记忆、浏览器、部署、本地运行和安全。平台提供阅读手册，代码在学习者自备环境中运行；云端实验需要自备资源并可能产生费用。" },
+  "defaultLocale": "zh-CN",
+  "labs": [
+    {
+      "id": "lesson-00",
+      "title": { "zh-CN": "环境准备" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-00-overview", "title": { "zh-CN": "学习路线" }, "files": { "zh-CN": "chapters/00-overview.zh-CN.md" } },
+        { "id": "lesson-00-setup", "title": { "zh-CN": "准备实验环境" }, "files": { "zh-CN": "chapters/00-setup.zh-CN.md" } },
+        { "id": "lesson-00-license", "title": { "zh-CN": "来源与许可" }, "files": { "zh-CN": "chapters/00-license.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-01",
+      "title": { "zh-CN": "认识智能体" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-01-concepts", "title": { "zh-CN": "智能体与应用场景" }, "files": { "zh-CN": "chapters/01-concepts.zh-CN.md" } },
+        { "id": "lesson-01-practice", "title": { "zh-CN": "运行首个智能体" }, "files": { "zh-CN": "chapters/01-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "title": { "zh-CN": "探索智能体框架" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-02-concepts", "title": { "zh-CN": "框架与服务边界" }, "files": { "zh-CN": "chapters/02-concepts.zh-CN.md" } },
+        { "id": "lesson-02-practice", "title": { "zh-CN": "比较框架接入方式" }, "files": { "zh-CN": "chapters/02-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "title": { "zh-CN": "智能体设计原则" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-03-concepts", "title": { "zh-CN": "设计可靠交互" }, "files": { "zh-CN": "chapters/03-concepts.zh-CN.md" } },
+        { "id": "lesson-03-practice", "title": { "zh-CN": "把原则落实到代码" }, "files": { "zh-CN": "chapters/03-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "title": { "zh-CN": "工具使用" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-04-concepts", "title": { "zh-CN": "函数调用与边界" }, "files": { "zh-CN": "chapters/04-concepts.zh-CN.md" } },
+        { "id": "lesson-04-practice", "title": { "zh-CN": "接入旅行工具" }, "files": { "zh-CN": "chapters/04-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "title": { "zh-CN": "智能体检索增强" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-05-concepts", "title": { "zh-CN": "证据驱动的 RAG" }, "files": { "zh-CN": "chapters/05-concepts.zh-CN.md" } },
+        { "id": "lesson-05-practice", "title": { "zh-CN": "检索与回答校验" }, "files": { "zh-CN": "chapters/05-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "title": { "zh-CN": "构建可信智能体" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-06-concepts", "title": { "zh-CN": "信任与人工监督" }, "files": { "zh-CN": "chapters/06-concepts.zh-CN.md" } },
+        { "id": "lesson-06-practice", "title": { "zh-CN": "系统消息与审批" }, "files": { "zh-CN": "chapters/06-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "title": { "zh-CN": "任务规划" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-07-concepts", "title": { "zh-CN": "目标分解与重规划" }, "files": { "zh-CN": "chapters/07-concepts.zh-CN.md" } },
+        { "id": "lesson-07-practice", "title": { "zh-CN": "执行结构化计划" }, "files": { "zh-CN": "chapters/07-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "title": { "zh-CN": "多智能体协作" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-08-concepts", "title": { "zh-CN": "协作模式与交接" }, "files": { "zh-CN": "chapters/08-concepts.zh-CN.md" } },
+        { "id": "lesson-08-practice", "title": { "zh-CN": "编排协作工作流" }, "files": { "zh-CN": "chapters/08-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-09",
+      "title": { "zh-CN": "元认知与反思" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-09-concepts", "title": { "zh-CN": "自评与改进循环" }, "files": { "zh-CN": "chapters/09-concepts.zh-CN.md" } },
+        { "id": "lesson-09-practice", "title": { "zh-CN": "检查和修订计划" }, "files": { "zh-CN": "chapters/09-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-10",
+      "title": { "zh-CN": "生产质量" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-10-concepts", "title": { "zh-CN": "评估与可观测性" }, "files": { "zh-CN": "chapters/10-concepts.zh-CN.md" } },
+        { "id": "lesson-10-practice", "title": { "zh-CN": "质量门禁与费用处理" }, "files": { "zh-CN": "chapters/10-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "title": { "zh-CN": "智能体协议" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-11-concepts", "title": { "zh-CN": "MCP、A2A 与 NLWeb" }, "files": { "zh-CN": "chapters/11-concepts.zh-CN.md" } },
+        { "id": "lesson-11-practice", "title": { "zh-CN": "协议连接与边界" }, "files": { "zh-CN": "chapters/11-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "title": { "zh-CN": "上下文工程" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-12-concepts", "title": { "zh-CN": "管理上下文预算" }, "files": { "zh-CN": "chapters/12-concepts.zh-CN.md" } },
+        { "id": "lesson-12-practice", "title": { "zh-CN": "摘要与工作记忆" }, "files": { "zh-CN": "chapters/12-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "title": { "zh-CN": "智能体记忆" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-13-concepts", "title": { "zh-CN": "记忆类型与生命周期" }, "files": { "zh-CN": "chapters/13-concepts.zh-CN.md" } },
+        { "id": "lesson-13-practice", "title": { "zh-CN": "持久化与检索记忆" }, "files": { "zh-CN": "chapters/13-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-14",
+      "title": { "zh-CN": "Agent Framework 进阶" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-14-concepts", "title": { "zh-CN": "框架组件与工作流" }, "files": { "zh-CN": "chapters/14-concepts.zh-CN.md" } },
+        { "id": "lesson-14-practice", "title": { "zh-CN": "编排、审批与中间件" }, "files": { "zh-CN": "chapters/14-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-15",
+      "title": { "zh-CN": "浏览器智能体" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-15-concepts", "title": { "zh-CN": "浏览器感知与操作" }, "files": { "zh-CN": "chapters/15-concepts.zh-CN.md" } },
+        { "id": "lesson-15-practice", "title": { "zh-CN": "受控网页任务" }, "files": { "zh-CN": "chapters/15-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-16",
+      "title": { "zh-CN": "规模化部署" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-16-concepts", "title": { "zh-CN": "部署生命周期与成本" }, "files": { "zh-CN": "chapters/16-concepts.zh-CN.md" } },
+        { "id": "lesson-16-practice", "title": { "zh-CN": "客服路由与发布门禁" }, "files": { "zh-CN": "chapters/16-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-17",
+      "title": { "zh-CN": "本地智能体" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-17-concepts", "title": { "zh-CN": "本地优先与混合路由" }, "files": { "zh-CN": "chapters/17-concepts.zh-CN.md" } },
+        { "id": "lesson-17-practice", "title": { "zh-CN": "本地工具、检索与 MCP" }, "files": { "zh-CN": "chapters/17-practice.zh-CN.md" } }
+      ]
+    },
+    {
+      "id": "lesson-18",
+      "title": { "zh-CN": "智能体安全" },
+      "requires": [],
+      "chapters": [
+        { "id": "lesson-18-concepts", "title": { "zh-CN": "授权、边界与签名证据" }, "files": { "zh-CN": "chapters/18-concepts.zh-CN.md" } },
+        { "id": "lesson-18-practice", "title": { "zh-CN": "回执验证与人工授权" }, "files": { "zh-CN": "chapters/18-practice.zh-CN.md" } }
+      ]
+    }
+  ],
+  "assets": [
+    "assets/01-agent-components.webp",
+    "assets/04-function-calling.png",
+    "assets/05-self-correction.png",
+    "assets/06-system-message-framework.png",
+    "assets/07-goals-and-tasks.png",
+    "assets/08-agent-handoff.png",
+    "assets/09-rag-and-context.png",
+    "assets/11-a2a-travel.png",
+    "assets/11-mcp-travel.png",
+    "assets/12-context-types.png",
+    "assets/14-agent-components.png"
+  ]
+}
